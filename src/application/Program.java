@@ -17,10 +17,11 @@ public class Program {
 		
 		SellerDao sellerDao = DaoFactory.createSellerDao();
 		
+		System.out.println("=== TEST !: seller findById ====");
 		Seller seller = sellerDao.findById(3);
 		
 		System.out.println(seller);
-		System.out.println(obj);
+		//System.out.println(obj);
 	}
 
 }
